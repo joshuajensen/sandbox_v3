@@ -1,0 +1,81 @@
+// Custom template
+
+@font-face {
+	font-family:"icons";
+	src:url("icons/font/icons-1973e7f9002e23bfd4a3a2e1867e2c64.eot");
+	src: url("icons/font/icons-1973e7f9002e23bfd4a3a2e1867e2c64.eot?#iefix") format("embedded-opentype"),
+		url("icons/font/icons-1973e7f9002e23bfd4a3a2e1867e2c64.woff") format("woff"),
+		url("icons/font/icons-1973e7f9002e23bfd4a3a2e1867e2c64.ttf") format("truetype"),
+		url("icons/font/icons-1973e7f9002e23bfd4a3a2e1867e2c64.svg?#icons") format("svg");
+	font-weight:normal;
+	font-style:normal;
+	}
+
+
+
+.enhanced{
+	.icon {
+		font-family:"icons";
+		display:inline-block;
+		font-style:normal;
+		speak:none;
+		-webkit-font-smoothing:antialiased;
+		background-image: none !important;
+	}
+	
+	
+	.icon_arrow-left:before { content:"\f100"; }
+	.icon_arrow-right:before { content:"\f101"; }
+	.icon_browse:before { content:"\f102"; }
+	.icon_cart:before { content:"\f103"; }
+	.icon_checkmark:before { content:"\f104"; }
+	.icon_clear-search:before { content:"\f105"; }
+	.icon_deals:before { content:"\f106"; }
+	.icon_gift-cards:before { content:"\f107"; }
+	.icon_hamburger:before { content:"\f108"; }
+	.icon_help:before { content:"\f109"; }
+	.icon_home:before { content:"\f10a"; }
+	.icon_lest-data:before { content:"\f10b"; }
+	.icon_lists:before { content:"\f10c"; }
+	.icon_loading:before { content:"\f10d"; }
+	.icon_lock:before { content:"\f10e"; }
+	.icon_my-accounts:before { content:"\f10f"; }
+	.icon_pharmacy:before { content:"\f110"; }
+	.icon_point-down:before { content:"\f111"; }
+	.icon_point-right:before { content:"\f112"; }
+	.icon_registries:before { content:"\f113"; }
+	.icon_search:before { content:"\f114"; }
+	.icon_star:before { content:"\f115"; }
+	.icon_stores:before { content:"\f116"; }
+	.icon_target:before { content:"\f117"; }
+	.icon_test:before { content:"\f118"; }
+	.icon_weekly-ad:before { content:"\f119"; }
+	
+	.icon_arrow-left,
+	.icon_arrow-right,
+	.icon_browse,
+	.icon_cart,
+	.icon_checkmark,
+	.icon_clear-search,
+	.icon_deals,
+	.icon_gift-cards,
+	.icon_hamburger,
+	.icon_help,
+	.icon_home,
+	.icon_lest-data,
+	.icon_lists,
+	.icon_loading,
+	.icon_lock,
+	.icon_my-accounts,
+	.icon_pharmacy,
+	.icon_point-down,
+	.icon_point-right,
+	.icon_registries,
+	.icon_search,
+	.icon_star,
+	.icon_stores,
+	.icon_target,
+	.icon_test,
+	.icon_weekly-ad
+	{@extend .icon;}
+}

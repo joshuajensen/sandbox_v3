@@ -1,0 +1,60 @@
+ <%= render( 'header.html', { }) %>
+
+	<div id="navigation"></div>
+
+
+
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXX  END NAVIGATION XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+<div class="main-content">
+<div id="main" >
+	<!-- per richrelevance guide include at the top of the body-->
+	<script src="//media.richrelevance.com/rrserver/js/1.0/p13n.js"></script>
+	<script>
+	console.log('relevance');
+	var R3_COMMON = new r3_common();
+	console.log (R3_COMMON);
+	R3_COMMON.setApiKey('632d581ca7b9feb3');
+	R3_COMMON.setChannel('b22b28e5c5a20be7'); 
+	R3_COMMON.setBaseUrl(window.location.protocol+'//recs.richrelevance.com/rrserver/');
+	R3_COMMON.setClickthruServer(window.location.protocol+"//"+window.location.host);
+	R3_COMMON.addPlacementType('home_page.mobile_180x100_1');
+	R3_COMMON.addPlacementType('home_page.mobile_90x100_1');
+
+
+
+
+
+	window.R3_HOME = new r3_home();
+
+	r3();
+	
+	</script>
+	
+		<div id="rr_wrapper" style="width: 322px; max-height: 130px; margin: 40px auto 0; border-bottom: 1px solid #ccc;">
+			<div id="rr_item1" style="display: inline-block; padding: 15px 10px 15px 15px;">
+				<script charset="utf-8" type="text/javascript">
+				r3_placement('home_page.mobile_180x100_1');
+				</script>
+			</div>
+			<div id="rr_item2" style="display: inline-block; padding: 15px 14px 15px 10px;width:1px;">
+			<script charset="utf-8" type="text/javascript">
+			r3_placement('home_page.mobile_90x100_1');
+			rr_flush_onload();
+
+
+			</script>
+			</div>
+	    </div>
+</div>
+</div>
+
+
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXX  FOOTER XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+ <%= render( 'footer.html', { }) %>
+
+</div> <!-- end of viewport -->
+
+</body>
+</html>	

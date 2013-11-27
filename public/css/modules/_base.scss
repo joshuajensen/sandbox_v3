@@ -1,0 +1,32 @@
+//base style sheet for target styles, basically, a target "reset"
+/*BASE*******************/
+$blue: #3bbfce;
+$margin: 16px;
+$white: #fff;
+
+$darkGrey: #999;
+$medGrey: #666;
+$lightGrey: #333;
+
+/*Global Variables*/
+$blue: #3bbfce;
+$margin: 16px;
+
+.content-navigation {
+  border-color: $blue;
+  color:
+    darken($blue, 9%);
+}
+
+.border {
+  padding: $margin / 2;
+  margin: $margin / 2;
+  font-size: 12px;
+  border-color: $blue;
+}
+html {
+    color: #333;
+    font-size: 62.5%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+
+}

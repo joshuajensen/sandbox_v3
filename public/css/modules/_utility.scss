@@ -1,0 +1,380 @@
+
+
+
+/*********************************************************************
+                                mixins
+********************************************************************/
+@mixin overflow-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+/*resets the border, padding & margin to zero*/
+@mixin clear-bpm{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+@mixin widthHeightfour {
+    width: 14px;
+    height: 14px;
+}
+
+@mixin font {
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-family: 'nav';
+}
+
+@mixin leftTopZeroPX {
+    display: block;
+    left: 0px;
+    top: 0px;
+}
+
+@mixin random {
+    //rename this
+    display: block;
+    width: 45px;
+    text-align: center;
+}
+
+@mixin widthHeight {
+    width: 0;
+    height: 0;
+}
+@mixin oneHunderedWH {
+    width: 100%;
+    height: 100%;
+}
+@mixin widthHeightP{
+    width: 0%;
+    height: 0%;
+}
+@mixin randomT {
+    padding: 15px 15px 15px 40px;
+    margin: 0;
+    color: #666;
+    background: #EDEDED;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #DBDBDB;
+    //rename this
+}
+@mixin mainMenuLI {
+     background: #242424;
+    border-bottom: 1px solid #1E1E1E;
+    border-top: 1px solid #2d2d2d;
+    color: #fff;
+   
+}
+@mixin catActive {
+     background: #333333;
+        border-bottom: 1px solid #232323;
+        border-top: 1px solid #3d3d3d;
+        color: #888;
+}
+@mixin ancestor {
+      background: #333333;
+        border-bottom: 1px solid #232323;
+        border-top: 1px solid #3d3d3d;
+        color: #888;
+}
+@mixin mainMenuP {
+    background: #333333;
+    border-bottom: 1px solid #232323;
+    border-top: 1px solid #3d3d3d;
+    color: #fff;
+}
+@mixin generalModern {
+        -webkit-transition:.3s linear;
+    transition:.3s linear; 
+    -webkit-transition-property: left, margin-left;
+    transition-property: left, margin-left;
+    -webkit-backface-visibility: hidden;
+    /*-webkit-transition: none;
+    transition: none; 
+    transition-property: none;*/
+}
+@mixin fontIcons {
+    font-family: 'nav';
+    float: left;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;
+    line-height: 2.4;
+    color: #666;
+}
+@mixin eventCatch {
+        width: 0%;
+        height: 0%;
+        background: rgba(255,255,255,0);
+        left: 0;
+        z-index: 9999;
+}@mixin itemName {
+     display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 1.333333em;
+    line-height: 1.2;
+}
+@mixin colorText {
+    padding: 0 5px 2px 5px;
+    text-transform: lowercase;
+    line-height: 1.8;
+    height: 20px;
+    display: inline-block;
+    border-radius: 0 0 .2em .2em;
+}
+@mixin overRidePlp {
+    color: #c00;
+    font-size: .6em;
+    font-size:1.2em;
+    font-weight:700;
+    text-transform:lowercase;
+}
+@mixin liP {
+    color: #666;
+    font-size:1.2em;
+    list-style-type:disc;
+    line-height:1.4;
+    list-style-position:inside;
+    margin-left: .5em;
+    padding-left: .5em;
+}
+
+/************
+    generic classes
+************/
+@mixin floatLeft {
+    float: left;
+}
+@mixin fontWeightSeven {
+    font-weight: 700;
+}
+@mixin toLowerCase {
+    text-transform: lowercase;
+}
+@mixin displayBlock {
+    display: block;
+}
+@mixin paddingZero {
+    padding: 0;
+}
+@mixin colorDarkGrey {
+    color: $darkGrey;
+}
+@mixin fontOneFiveEm {
+    font-size: 1.5em;
+}
+@mixin fontOneTwoEm {
+    font-size: 1.2em;
+}
+@mixin colorMedGrey {
+    color: $medGrey;
+}
+@mixin textCenter {
+    text-align: center;
+}
+@mixin widthOnehundered {
+    width: 100%;
+}
+@mixin whiteColor {
+    color: $white;
+}
+@mixin bgTransparent {
+    background: transparent;
+}
+@mixin displayNone {
+    display: none;
+}
+@mixin lineOneTwo {
+    line-height: 1.2em;//check if its em or not
+}
+@mixin fontSizeOneOne {
+    font-size: 1.1em;
+}
+@mixin topZero {
+    top: 0;
+}
+@mixin floatRight {
+    float: right;
+}
+@mixin textTransNone {
+    text-transform: none;//check this
+}
+@mixin posAbso {
+    position: absolute;
+}
+@mixin colorCZero {
+    color: #c00;
+}
+@mixin fontBold {
+    font-weight: bold;
+}
+@mixin displayInline {
+    display: inline;
+}
+@mixin overflowHidden {
+    overflow: hidden;
+}
+@mixin fontSizeOneThree {
+    font-size: 1.3em;
+}
+@mixin bgNone {
+    background: none;
+}
+@mixin fontSizeOneEm {
+    font-size: 1em;
+}
+@mixin fontSizeTwoFiveEm {
+    font-size: 2.5em;
+}
+@mixin clearFix {
+    clear: both;
+}
+@mixin colorMedGrey {
+    color: $medGrey;//check this #666
+}
+@mixin marginZeroAuto {
+    margin: 0 auto;
+}
+@mixin displayInlineBlock {
+    display: inline-block;
+}
+@mixin paddingOne{
+    padding: 1em;
+}
+@mixin lineHeightOneThree {
+    line-height: 1.3em;//check this
+}
+@mixin pointer {
+    cursor: pointer;
+}
+@mixin borderNone {
+    border: none;
+}
+@mixin breakWord {
+    word-wrap: break-word;
+}
+@mixin displayNone {
+    display: none;
+}
+@mixin heightOneHundered {
+    height: 100%;
+}
+@mixin alignLeft {
+    text-align: left;
+}
+@mixin marginBottomTen {
+    margin-bottom: 10px;
+}
+@mixin heightZero {
+    height: 0;
+}
+@mixin marginTopTen {
+    margin-top: 10px;
+}
+@mixin marginBottomZero {
+    margin-bottom: 0;
+}
+@mixin borderOneSolid {
+    border: 1px solid #ccc;
+}
+@mixin fontWeightSix {
+    font-weight: 600;
+}
+@mixin alignRight {
+    text-align: right;
+}
+@mixin fontFam {
+    font-family: 'nav';
+}
+
+
+@mixin marginZero {
+    margin: 0;
+}
+@mixin fontColorBlack {
+    color: #000;
+}
+@mixin posRelative {
+    position: relative;
+}
+@mixin overflowXHidden {
+    overflow-x: hidden;
+}
+@mixin posFixed {
+    position: fixed;
+}
+@mixin overflowYHidden {
+    overflow-y: hidden;
+}
+@mixin leftZeroPX {
+    left: 0px;
+}
+@mixin topZeroPx {
+    top: 0px;
+}
+@mixin widthFortyFivePX {
+    width: 45px;
+}
+@mixin rightFortyFivePX {
+    right: 45px;
+}
+@mixin widthThirty {
+    width: 30px;
+}
+@mixin bgWhite {
+    background: #fff;
+}
+@mixin heightAuto {
+    height: auto;
+}
+@mixin topFortyFivePX {
+    top: 45px;
+}
+@mixin leftTwoThirtyPX {
+    left: 230px;
+}
+@mixin heightThirtyPX {
+    height: 30px;
+}
+@mixin widthZeroP {
+    width: 0%;
+}
+@mixin heightZeroP {
+    width: 0%;
+}
+@mixin minHeight {
+    min-height: 100%;
+}
+@mixin fontSizeOneTwo {
+    font-size: 1.2em;
+}
+@mixin colorCCC {
+    color: #ccc;
+}
+@mixin fontSizeTwelve {
+    font-size: 12px;
+}
+@mixin textDecNone {
+    text-decoration: none;
+}
+
+
+
+/*********************************************************************
+                                end mixins
+********************************************************************/
+
+
+
+
+
+
+

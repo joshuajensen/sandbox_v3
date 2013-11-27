@@ -1,0 +1,40 @@
+Grunt tasks for local development:
+
+Set a node environment variable depending on what you are working on.   
+
+from the terminal:
+
+$ export NODE_ENV="dev"
+
+test that it is working...
+
+$ echo $NODE_ENV
+
+dev  //  shows NODE_ENV is set to dev.
+
+Configure a default for NODE_ENV.
+
+Add this line to your '.bash_profile' in your home directory.  export NODE_ENV="dev"
+
+
+The Grunt task "go" 
+
+$ grunt go  (when environment is set to "dev")
+
+Starts the server with css files expanded and watches the "main.scss" for changes. Source files are in /public
+
+$ grunt go  (when environment is set to "test") 
+
+Starts the server css/js files minimized and concatenated.  Source files are in the "/generated".
+
+$ grunt clean   ---- Removes "/generated"  
+
+
+To see a list and description of Grunt tasks   
+
+$ grunt -h
+
+
+
+ 
+

@@ -1,0 +1,25 @@
+/** import the reset to normalize core styles across browsers*/
+@import "modules/_reset.scss";
+/** import the utility to have access to the global mixins*/
+@import "modules/_utility.scss";
+/** import the base scss file to set the core Target styles and access gloabl vars (colors, fonts, etc)*/
+@import "modules/_base.scss";
+
+@import "modules/_icons.scss";
+/** Import all section stylesheets*/
+@import "sections/_navigation.scss";
+@import "sections/_plp.scss";
+@import "sections/_pdp.scss";
+@import "sections/_pharmacy.scss";
+@import "sections/_storelocator.scss";
+
+
+
+/* no styles should be in this file. 
+global styles/variable should be added to base.scss (ex. general button stlyes would go in base.scss, along with any reusable classes)
+mixins should be added to utility.scss
+ */
+
+
+
+

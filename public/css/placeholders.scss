@@ -1,0 +1,297 @@
+/*********************************************************************
+                                start placeholder vars 
+********************************************************************/
+%mainMenu {
+    @include mainMenuLI;
+}
+%catActiveVar {
+    @include catActive;
+}
+%ancestorVar {
+    @include ancestor;
+}
+%oneHunderedWHVar {
+    @include oneHunderedWH;
+}
+%mainMenuPVar {
+    @include mainMenuP;
+}
+%whiteColorVar {
+    @include whiteColor;
+}
+%generalModernVar {
+    @include generalModern;
+}
+%fontVar {
+    @include font;
+}
+%fontIconsVar {
+    @include fontIcons;
+}
+%eventCatchVar {
+    @include eventCatch;
+}
+%itemNameVar {
+    @include itemName;
+}
+%colorTextVar {
+    @include colorText;
+}
+%overRidePlpVar {
+    @include overRidePlp;
+}
+%liPvar {
+    @include liP;
+}
+
+/**********************
+        generic vars
+**********************/
+%floatLeftVar {
+    @include floatLeft;
+}
+%fontWeightSevenVar {
+    @include fontWeightSeven;
+}
+%toLowerCaseVar {
+    @include toLowerCase;
+}
+%displayBlockVar {
+    @include displayBlock;
+}
+
+%colorDarkGreyVar {
+    @include colorDarkGrey;
+}
+
+%fontOneTwoEmVar {
+    @include fontOneTwoEm;
+}
+%colorMedGreyVar {
+    @include colorMedGrey;
+}
+
+%widthOneHunderedVar {
+    //change mixin that goes with this
+}
+
+%displayNoneVar {
+    @include displayNone;
+}
+%lineOneTwoVar {
+    @include lineOneTwo;
+}
+%fontSizeOneOneVar {
+    @include fontSizeOneOne;
+}
+%topZeroVar {
+    @include topZero;
+}
+
+%textTransNoneVar {
+    @include textTransNone;
+}
+%posAbsoVar {
+    @include posAbso;
+}
+%colorCZeroVar {
+    @include colorCZero;
+}
+%fontBoldVar {
+    @include fontBold;
+}
+
+%displayInlineVar {
+    @include displayInline;
+}
+%overflowHiddenVar {
+    @include overflowHidden;
+}
+
+%bgNoneVar {
+    @include bgNone;
+}
+
+%clearFixVar {
+    @include clearFix;
+    //clears both
+}
+%colorMedGreyvar {
+    //checkthis
+}
+
+%lineHeightOneThreeVar {
+    @include lineHeightOneThree;
+}
+
+%breakWordVar {
+    @include breakWord;
+}
+%displayNoneVar {
+    //check this
+}
+
+
+%marginBottomZeroVar {
+    @include marginBottomZero;
+}
+
+%fontFamVar {
+    @include fontFam;
+}
+
+
+%marginZeroVar {
+    @include marginZero;
+}
+%fontColorBlack {
+    @include fontColorBlack;
+}
+%posRelative {
+    @include posRelative;
+}
+%overflowXHidden {
+    @include overflowXHidden;
+}
+%posFixed {
+    @include posFixed;
+}
+%overflowYHidden {
+    @include overflowYHidden;
+}
+%leftZeroPX {
+    @include leftZeroPX;
+}
+%topZeroPx {
+    @include topZeroPx;
+}
+%widthFortyFivePX {
+    @include widthFortyFivePX;
+}
+%rightFortyFivePX {
+    @include rightFortyFivePX;
+}
+%widthThirty {
+    @include widthThirty;
+}
+%bgWhite {
+    @include bgWhite;
+}
+%heightAuto {
+    @include heightAuto;
+}
+%topFortyFivePX {
+    @include topFortyFivePX;
+}
+%leftTwoThirtyPX {
+    @include leftTwoThirtyPX;
+}
+%heightThirtyPX {
+    @include heightThirtyPX;
+}
+%widthZeroP {
+    @include widthZeroP;
+}
+%heightZeroP {
+    @include heightZeroP;
+}
+%minHeight {
+    @include minHeight;
+}
+%fontSizeOneTwo {
+    @include fontSizeOneTwo;
+}
+%colorCCC {
+    @include colorCCC;
+}
+%fontSizeTwelve {
+    @include fontSizeTwelve;
+}
+%textDecNone {
+    @include textDecNone;
+}
+
+
+
+/********************************************************************
+                                not used atm
+********************************************************************/
+%paddingZeroVar {
+    @include paddingZero;//none? //
+}
+%fontOneFiveEmVar {
+    @include fontOneFiveEm;// none? //
+}
+%bgTransparentVar {
+    @include bgTransparent;//none //
+}
+%floatRightVar {
+    @include floatRight;//none \\
+}
+%fontSizeOneThreeVar {
+    @include fontSizeOneThree;//none \\
+}
+%paddingZeroVar {
+    @include paddingZero;//none \\
+}
+%textCenterVar {
+    @include textCenter; //none
+}
+%borderOneSolidVar {
+    @include borderOneSolid;//none \\
+}
+%fontWeightSixVar {
+    @include fontWeightSix;//none \\
+}
+%alignRightVar {
+    @include alignRight;//none \\
+}
+%heightZeroVar {
+    @include heightZero;//none \\
+}
+%marginTopTenVar {
+    @include marginTopTen;//none \\
+}
+%heightOneHunderedVar {
+    @include heightOneHundered;//none \\
+}
+%alignLeftVar {
+    @include alignLeft;//none \\
+}
+%marginBottomTenVar {
+    @include marginBottomTen;//none \\
+}
+%heightOneHunderedVar {
+    @include heightOneHundered;//none \\
+}
+%alignLeftVar {
+    @include alignLeft;//none \\
+}
+%marginBottomTenVar {
+    @include marginBottomTen;//none \\
+}
+%marginZeroAutoVar {
+    @include marginZeroAuto;//none \\
+}
+%displayInlineBlockVar {
+    @include displayInlineBlock;//none \\
+}
+%paddingOneVar {
+    @include paddingOne;//none \\
+}
+%pointerVar {
+    @include pointer;//none
+}
+%borderNoneVar {
+    @include borderNone;//none \\
+}
+%fontSizeOneEmVar {
+    @include fontSizeOneEm;//none \\
+}
+%fontSizeTwoFiveEmVar {
+    @include fontSizeTwoFiveEm;//none \\
+}
+/*********************************************************************
+                               end placeholder vars
+********************************************************************/
+
